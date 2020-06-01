@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Xcel Solutions</title>
+  
+</head>
+<body>
+  <h1>Xcel Solutions</h1>
+  <marquee><h4>We provide solutions to your questions</h4></marquee>
+  <style type="text/css">
+    body{color:blue;background-color:grey}</style>
+</body>
+<script type="text/javascript">
+  /*Distance from Earth to Mars (d)=151.92 million km
+  Velocity of the space ship (v)=1000km/hr
+  Time taken (t1) for the space ship to travel to Mars from Earth= d/v*/
+  var d=151920000;
+  var v=1000;
+  var t1;
+  t1=d/v;
+  document.write("The time taken for the space ship to reach Mars is="+""+t1+"hours")
+  document.write("<br>")
+  document.write("<br>")
+  /*Time taken to go to Mars from Earth(t1)=151920 hours
+  Timetaken for Mars to complete one revolution (t2)=24.6 hours
+  Total time it will take the astronauts to go to Mars and return (T)=(2*t1+t2)
+  */
+  var t1=151920;
+  var t2=24.6;
+  var T;
+  T=(2*t1+t2)
+  document.write("The time it will take the astronauts to go to Mars and return to Earth is ="+""+T+"hours")
+  document.write("<br>")
+  document.write("<br>")
+  /*It takes one astronaut 303864.6 hours to go to Mars and return to Earth
+  If 1liter of compressed oxygen can serve an astronaut for 12 hours
+  Then x liters will serve an astronaut for 303864.6 hours
+  x=303864.6/12*/
+  var x=303864.6/12;
+  document.write("The volume of compressed oxygen that will serve an astronaut in Earth throughout the journey to Mars and back is="+""+x+"liters")
+  document.write("<br>")
+  document.write("<br>")
+  /* If one astronaut needs 25322.05 liters of compressed oxygen for the journey
+  10 astronauts will need y liters of compressed oxygen*/
+  var y=10*25322.05
+  document.write("Hence the total amount or volume of compressed oxygen needed by Ten astronauts for the journey from Earth to Mars is ="+""+y+"liters")
+</script>
+</html>
